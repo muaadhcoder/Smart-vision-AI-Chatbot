@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Vision - AI Learning Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1 class="title">SMART VISION</h1>
+            <p class="subtitle">Your AI Learning Companion</p>
+        </div>
+        <div class="particles"></div>
+    </header>
+
+    <main>
+        <section class="subject-selector">
+            <button id="science-btn" class="subject-btn pulse">
+                <i class="fas fa-flask"></i> Science
+            </button>
+            <button id="maths-btn" class="subject-btn pulse">
+                <i class="fas fa-square-root-alt"></i> Maths
+            </button>
+        </section>
+
+        <section class="chat-container">
+            <div class="chat-header">
+                <h2>AI Assistant</h2>
+                <div class="typing-indicator hidden">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        Hello! I'm Smart Vision. Choose a subject to get started!
+                    </div>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Ask your question here...">
+                <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2 class="section-title">Features</h2>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Smart Responses</h3>
+                    <p>Get accurate answers to your science and maths questions instantly.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Learning Focused</h3>
+                    <p>Designed specifically for educational purposes in STEM subjects.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Quick Answers</h3>
+                    <p>No more waiting - get solutions to your problems in seconds.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Powered by <span class="highlight">Muaadh</span></p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
